@@ -12,19 +12,21 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
     + Structuer
     + Tables
     
-  + Basic Styling Web using CSS
+  + Basic Styling using CSS
     + Selectors
     + Visual Rules
     
 + 2 Weeks
-  + Advanced Styling Web using CSS
+  + Advanced Styling using CSS
     + Box Modeling
-    + Layout Positioning 
+    + Positioning 
     + Colors and Typography
+    + Basic Responsive Design
+    + Inheritance and Cascading (Additional Part)
     
   + Learn Javascript Syntax (Based on Javascript ES6)
     + Basic Syntax : Variables, Conditional, Functions, Array, Iterators, Object
-    + Differences between Javascript and Python3
+    + Differences of Syntax between Javascript and Python3
     
   + Learn DOM(Document Obeject Model) Events with Javascript
   
@@ -35,8 +37,12 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
   + Learn Jquery
     + TBA
     
+  + Responsive Design with BootStrap
+
++ 4 Weeks 
   + Learn React
     + TBA
+    
 
     
   
