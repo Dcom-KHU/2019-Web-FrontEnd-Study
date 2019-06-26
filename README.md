@@ -1,6 +1,9 @@
 # 2019-Web-FrontEnd-Study
 D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
 
+## Requirments
+필요한 사전지식은 없습니다. 다만 기초적인 프로그래밍 문법(Ex. Python, C, Java)을 알고 있다면 스터디를 따라오는데 더욱 수월할 것입니다.
+본 스터디를 진행하는데 실습 환경은 Text Editor(Ex. Visual Studio Code, Sublime text, Atom) 와 Web Browser(Ex. Chrome, IE)만 있으면 됩니다!
 
 ## Curriculum
 
