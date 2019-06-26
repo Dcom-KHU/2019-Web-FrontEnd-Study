@@ -34,7 +34,12 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
     
   + Learn DOM(Document Obeject Model) Events with Javascript
   
-+ 3 Weeks (Additional Course)
++ 3 Weeks
+  + Making Personal Website Portfolio
+    + Making Personal Website
+    + Hosing on Github.io
+ 
++ 4 Weeks (Additional Course)
   + Learn Advanced Javascript
     + Advanced Syntax: Classes, Modules, Error Handling, Async, Requests
     
@@ -43,11 +48,11 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
     
   + Responsive Design with BootStrap
     + TBA
-
-+ 4 Weeks 
   + Learn React
     + TBA
     
+
+
 
     
   
