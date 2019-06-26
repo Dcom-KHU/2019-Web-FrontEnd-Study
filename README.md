@@ -35,8 +35,8 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
   + Learn DOM(Document Obeject Model) Events with Javascript
   
 + 3 Weeks
-  + Making Personal Website Portfolio
-    + Making Personal Website
+  + Making Personal Portfolio Website
+    + Making Personal Portfolio Website
     + Hosing on Github.io
  
 + 4 Weeks (Additional Course)
