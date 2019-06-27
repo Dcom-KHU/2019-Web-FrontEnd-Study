@@ -32,9 +32,9 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
     + Basic Syntax : Variables, Conditional, Functions, Array, Iterators, Object
     + Differences of Syntax between Javascript and Python3
     
++ 3 Weeks
   + Learn DOM(Document Obeject Model) Events with Javascript
   
-+ 3 Weeks
   + Making Personal Portfolio Website
     + Making Personal Portfolio Website
     + Hosing on Github.io
@@ -48,6 +48,7 @@ D.com 2019 Front-End Web 스터디를 위한 Repository입니다.
     
   + Responsive Design with BootStrap
     + TBA
+    
   + Learn React
     + TBA
     
