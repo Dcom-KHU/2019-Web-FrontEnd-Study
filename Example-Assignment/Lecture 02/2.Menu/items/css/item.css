@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(-45deg, #232526, #414345);
+      color: white;
+      font-family: 'Jua', sans-serif;
+    }
+    img{
+      display:block;
+      border-radius: 30%;
+      margin: 0 auto;
+      height: 300px;
+
+    }
+    h1 {
+      font-size: 100px;
+      margin: 0 auto;
+      color: whitesmoke;
+    }
+    
+    h2 {
+      font-size: 70px;
+      text-align: center;
+      margin: 15px auto;
+    }
+
+  p{
+    font-size: 30px;
+    text-align: center;
+  }
+    a{
+      text-decoration: none;
+    color : white;
+    }
+    .description{
+      border: 3px dotted whitesmoke;
+      padding: 10px;
+      
+      
+      margin: 0 auto;
+      width:50%;
+    }
+    #apply-box{
+      background-color: green;
+      margin: 30px auto;
+      width: 150px;
+      height: 50px;
+      padding-top: 10px;
+    }
+    #back-box{
+      background-color: red;
+      margin: 30px auto;
+      width: 150px;
+      height: 50px;
+      padding-top: 10px;
+    }

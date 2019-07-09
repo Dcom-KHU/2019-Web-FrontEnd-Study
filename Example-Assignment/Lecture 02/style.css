@@ -1,0 +1,51 @@
+span {
+    color: red;
+}
+h1{
+    color: red;
+}
+.color-blue{
+    color: blue;
+}
+.italic{
+    font-style:italic;
+}
+#color-yellow{
+    color: yellow;
+}
+.font-prop{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    opacity: 0.7;
+}
+.text-right{
+    text-align:right;
+}
+.text-left{
+text-align: left;
+}
+.text-center{
+text-align: center;
+}
+.red-background{
+    background-color: red;
+}
+.image-background{
+    background-image: url("http://mblogthumb3.phinf.naver.net/MjAxODEyMDRfNzAg/MDAxNTQzOTMwMDU4MDI1.Nrg3F0XdrCYnS2vNBXUX5oyF5Dds7JPoYVT4BQIHWkgg.bVbUbzVLqfXFXgqTKs6pNcH8gpYtU2CrEMxgIExnDaQg.JPEG.dkgoggog21/ce9d6ee43b9fa3b8bc5828cf7d36e040cf8f1a66796e2a28b2552e67cf3d02ee55ca57531f25eb3dc9aba3d0e6f4b3ddff62e515120538e0a56ec7daaea1ee95d4ac5673b613.jpg?type=w420")
+}
+ul>li{
+    color:red;
+}
+#blue-list li{
+    color:blue;
+}
+#box-model{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    padding: 20px 20px 20px 20px;
+    margin-left: 20px;
+}
