@@ -1,0 +1,151 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    background-color: #8d1414;
+}
+header{
+    position: fixed;
+    background-color: #d82c2c;
+    width:100%;
+    top: 0px;
+    z-index: 5;
+    height: 50px;
+}
+
+nav li{
+    color: whitesmoke;
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+.jumbotron{
+    text-align: center;
+    height: 650px;
+    background-image: url(./img/chicken.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    top:50px;
+}
+.img-cover{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+
+}
+.text-cover{
+    margin: 50px 100px;
+
+}
+.headtext{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 100px;
+    color:white;
+}
+#btn-menu{
+    display: inline-block;
+    width: 200px;
+    background-color: #d82c2c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 50px;
+
+}
+#btn-menu:hover{
+    background-color: #8d1414
+}
+#head-image{
+    display: block;
+    margin: 50px auto;
+}
+.container{
+
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.about img{
+    width: 400px;
+    padding-right: 50px;
+
+}
+.about{
+    top: 50px;
+    position: relative;
+    margin: 30px auto;
+    display:flex;
+    align-items: flex-start;
+    padding: 100px 50px;
+}
+.about h1{
+    font-size: 50px;
+}
+.about p{
+    font-size: 17px;
+}
+.hours{
+    height: 250px;
+    top: 50px;
+    position: relative;
+    background-color: rgb(228, 55, 55);
+    display: flex;
+    text-align: center;
+    padding: 70px 50px;
+    color:whitesmoke
+}
+.hours h1{
+    font-size: 90px;
+    padding: 10px 50px;
+
+}
+.hours h2{
+    margin-top: 70px;
+    font-size: 50px;
+
+}
+.hours h3{
+    font-size: 30px;
+
+}
+.map{
+    height: 800px;
+    top: 50px;
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+}
+footer{
+    height: 100px;
+    top: 50px;
+    position: relative;
+
+    background-color: rgb(228, 55, 55);
+}
+.hour-flex{
+    display:flex;
+    align-items: flex-start;
+}
+.map h1{
+    font-size: 60px;
+}
+footer .container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    color: whitesmoke;
+  }
