@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <ul>
+        <li>HTML</li>
+        <li id="active">CSS</li>
+        <li>JavaScript</li>
+        <input type="button" id="target" value="button" />
+    </ul>
+    <script>
+
+var t = document.getElementById('target');
+        t.addEventListener('click', alert_one);
+        function alert_one() {
+
+            alert(1);
+
+        };
+
+        t.addEventListener('click',alert_two) 
+        function alert_two() {
+
+            alert(2);
+
+        };
+
+        let li = document.getElementById('active');
+        li.style.color = 'red';
+        li.innerText = 'CSS3'
+
+        t.onclick = function () {
+            //alert('Hello world');
+        }
+    </script>
+</body>
+
+</html>

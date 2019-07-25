@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>webmaster</title>
+</head>
+
+<body>
+    <h1 id='evol'>I was a Web beginner.</h1>
+    <input type="button" id="target" value="Study!" />
+    <script>
+        let button = document.getElementById('target');
+        let evol = document.getElementById('evol')
+        button.addEventListener('click', evolution);
+
+        function evolution() {
+            evol.innerHTML = "Now, I became a Web Master!"
+
+
+        }
+    </script>
+</body>
+
+</html>
