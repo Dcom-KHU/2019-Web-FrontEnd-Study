@@ -89,10 +89,52 @@ $("#show").click(function(){
 <br>
 
 [링크](https://www.w3schools.com/jquery/jquery_ref_effects.asp)는 여러가지 jQuery 효과를 정리한 문서입니다. 
-## Element 추가 (Append)
-TBA
-## Form
-TBA
+## DOM 조작
+text(), html(), val() 메소드를 통해 Element의 Content 값을 **얻을** 수 있습니다. 
+```javascript
+$("#btn1").click(function(){
+  alert("Text: " + $("#test").text());
+});
+$("#btn2").click(function(){
+  alert("HTML: " + $("#test").html());
+});
+$("#btn1").click(function(){
+  alert("Value: " + $("#test").val());
+});
+```
+[예제링크](https://codepen.io/facerain/pen/VwZpxpv)
+<br>
+<br>
+위의 세가지 메소드를 통해 Element의 Content 값을 **변경**할 수도 있습니다.
+```javascript
+$("#btn1").click(function(){
+  $("#test1").text("Hello world!");
+});
+$("#btn2").click(function(){
+  $("#test2").html("<b>Hello world!</b>");
+});
+$("#btn3").click(function(){
+  $("#test3").val("Dolly Duck");
+});
+```
+[예제링크](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_html_set)
+<br>
+<br>
+append(),prepend() 메소드를 통해 새로운 Element를 추가할 수 있습니다.
+```javascript
+function appendText() {
+  let txt1 = "<p>Text.</p>";               // Create element with HTML  
+  let txt2 = $("<p></p>").text("Text.");   // Create with jQuery
+  let txt3 = document.createElement("p");  // Create with DOM
+  txt3.innerHTML = "Text.";
+  $("body").append(txt1, txt2, txt3);      // Append the new elements 
+}
+```
+[예제링크](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append2)
+<br>
+<br>
+
+
 ## 예제(Example)
 [링크](https://codepen.io/eclairereese/pen/qZxvPz)
 : 간단한 To-do list 구현
@@ -100,4 +142,4 @@ TBA
 [링크](https://codepen.io/renato2016/pen/PvWwNp)
 : 좌측 메뉴 구현
 <br>
-TBA
+[링크](https://www.w3schools.com/howto/default.asp): 다양한 웹 구성 요소 코드(Ex.사진슬라이드, 메뉴바, 로그인폼)
