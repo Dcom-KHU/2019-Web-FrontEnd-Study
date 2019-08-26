@@ -133,7 +133,7 @@ function appendText() {
 [예제링크](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append2)
 <br>
 <br>
-
+이외에도 css(), addClass()등의 jQuery 메소드를 이용하여 Element의 Class, CSS 값을 가져오거나 수정할 수 있습니다. 즉 jQuery를 이용하여 Element를 추가하거나 수정하는 등 자유롭게 DOM 조작을 할 수 있습니다.
 
 ## 예제(Example)
 [링크](https://codepen.io/eclairereese/pen/qZxvPz)
@@ -142,4 +142,4 @@ function appendText() {
 [링크](https://codepen.io/renato2016/pen/PvWwNp)
 : 좌측 메뉴 구현
 <br>
-[링크](https://www.w3schools.com/howto/default.asp): 다양한 웹 구성 요소 코드(Ex.사진슬라이드, 메뉴바, 로그인폼)
+[링크](https://www.w3schools.com/howto/default.asp): 다양한 웹 구성 요소 코드(Ex.ImageSlider, MenuBar, LoginForm)
